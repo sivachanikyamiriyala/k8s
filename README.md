@@ -1,3 +1,7 @@
+kubeadm token create
+kubeadm delete node nodename  # master to leave
+kubeadm reset #to worker to leave
+
 # k8s
 1.To see the list of nodes in k8s cluster
    kubectl get nodes
@@ -19,3 +23,12 @@
   kubectl delete service_name
   
   
+***kubectl get node
+kubectl get pods -o wide --all-namespaces
+kubectl get pod/simple-pod
+kubectl get svc
+kubectl get rc
+kubectl get rs
+kubectl get deployment
+----->>>><<<<<<--------------------
+kubectl get services
